@@ -33,4 +33,7 @@ $(document).ready(function() {
   $('.customNextBtn').click(function() {
     owl.trigger('next.owl.carousel');
   })
+
+  
+  
 })

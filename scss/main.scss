@@ -843,7 +843,25 @@ a:hover {
     border-radius: 5px !important;
   }
   .card-header {
-    padding: 18px;
+    padding: 14px;
+    border: none;
+    background: #fff;
+    .btn:focus {
+      box-shadow: none;
+    }
+    .btn-link {
+      text-decoration: none;
+      color: #29292B;
+      font-size: 20px;
+      line-height: 150%;
+      padding-left: 7px;
+    }
+  }
+  .card-body {
+    padding-top: 0;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 150%;
   }
 }
 
