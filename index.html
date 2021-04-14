@@ -91,7 +91,7 @@
               <div class="plan">
                 <div class="plan__title text-grad">Получите план лечения зубов<br><span>со сроками и стоимостью</span></div>
                 <div class="btn-main">
-                  <a class="btn-link" href="#" onclick="return false;">Узнать сроки и цены</a>
+                  <a class="btn-link-1" href="#" onclick="return false;">Узнать сроки и цены</a>
                 </div>
               </div>
             </div>
@@ -220,7 +220,7 @@
                     <input class="inputs" type="tel" placeholder="Ваш номер телефона">
                   </div>
                   <div class="btn-main btn-main-min ml-0">
-                    <a class="btn-link btn-link-min" href="#" onclick="return false;">Записаться</a>
+                    <a class="btn-link-1 btn-link-min" href="#" onclick="return false;">Записаться</a>
                   </div>
                 </form>
               </div>
@@ -334,7 +334,95 @@
           <div class="row">
 
             <div class="col-6 clients-ques">
-              <p>Частые вопросы клиентов</p>
+              <p class="clients-title">Частые вопросы клиентов</p>
+              <div class="questions-cl">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Консультация и план лечения бесплатны?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Некоторый заполнитель для первой панели аккордеона. Эта панель отображается по умолчанию благодаря классу <code>.show</code>.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Как вы соблюдаете стерильность?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Некоторый заполнитель для второй панели аккордеона. По умолчанию эта панель скрыта.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Как вы устраняете боль?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        И, наконец, заполнитель для третьей и последней панели аккордеона. По умолчанию эта панель скрыта.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          У вас опытные врачи?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Некоторый заполнитель для второй панели аккордеона. По умолчанию эта панель скрыта.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"  data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          А с детьми вы работаете?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                      <div class="card-body">
+                        И, наконец, заполнитель для третьей и последней панели аккордеона. По умолчанию эта панель скрыта.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingSix">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"  data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          А даёте ли вы какие-нибудь гарантии?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                      <div class="card-body">
+                        И, наконец, заполнитель для третьей и последней панели аккордеона. По умолчанию эта панель скрыта.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="col-6">
@@ -348,6 +436,7 @@
     </div>
   </div>
   <script src="js/jquery-3.6.0.min.js"></script> 
+  <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/cocoen-jquery.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/cocoen.min.js"></script>

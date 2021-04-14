@@ -304,7 +304,7 @@ a:hover {
   border-radius: 53px;
 }
 
-.btn-link {
+.btn-link-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -326,7 +326,7 @@ a:hover {
   background: linear-gradient(276.82deg, #FF0000 -10.3%, #FF2272 75.13%);
 }
 
-.btn-link:hover {
+.btn-link-1:hover {
   text-decoration: none !important;
   color: white;
   background: linear-gradient(276.82deg, #FF3945 -10.3%, #FF4996 75.13%);
@@ -335,7 +335,7 @@ a:hover {
           box-shadow: 0px 13px 8px rgba(251, 29, 109, 0.06), 0px 0px 15px rgba(255, 48, 98, 0.3);
 }
 
-.btn-link:active {
+.btn-link-1:active {
   background: linear-gradient(276.82deg, #DD0000 -10.3%, #F80059 75.13%);
 }
 
@@ -1303,6 +1303,22 @@ a:hover {
 .clients {
   padding-top: 10px;
   background: url("../img/bg-big.png");
+}
+
+.clients .clients-title {
+  margin-top: 48px;
+  margin-bottom: 18px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.clients .card {
+  margin-bottom: 16px;
+  border-radius: 5px !important;
+}
+
+.clients .card-header {
+  padding: 18px;
 }
 
 .doctor-min {
