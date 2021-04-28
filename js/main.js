@@ -34,6 +34,21 @@ $(document).ready(function() {
     owl.trigger('next.owl.carousel');
   })
 
-  
-  
+  // collapce
+  $('.collapse').on('hide.bs.collapse', function () {
+    $(this).parent().find('.collapce-arrow').toggleClass('collapce-animate')
+    $(this).parent().find('.btn-link').toggleClass('text-grad')
+  })
+  $('.collapse').on('show.bs.collapse', function () {
+    $(this).parent().find('.collapce-arrow').toggleClass('collapce-animate')
+    $(this).parent().find('.btn-link').toggleClass('text-grad')
+  })
+
+  $( ".card-header" ).hover(function(){
+    $(this).find('.btn-link').addClass('text-grad-1')
+    $(this).find('.arrow-collapce').addClass('text-grad-collapce')
+    }, function(){
+    $(this).find('.btn-link').removeClass('text-grad-1')
+    $(this).find('.arrow-collapce').removeClass('text-grad-collapce')
+  });
 })
