@@ -1361,6 +1361,7 @@ a:hover {
     .clienst-win {
       border-radius: 8.5px;
       margin-top: 32px;
+      margin-bottom: calc(1px + (199 * (100vw / 390)));
       margin-right: 10px;
       .bg-firsts {
         border-radius: 8.5px;
@@ -1385,15 +1386,8 @@ a:hover {
         font-size: 10px;
         text-align: left;
       }
-      .second-form {
-        form {
-          padding-left: 11px;
-          .input-1, .input-2 {
-            .inputs {
-              
-            }
-          }
-        }
+      .second-form form {
+        padding-left: 11px;
       }
     }
   }

@@ -1889,6 +1889,7 @@ a:hover {
   .clients-form .clienst-win {
     border-radius: 8.5px;
     margin-top: 32px;
+    margin-bottom: calc(1px + (199 * (100vw / 390)));
     margin-right: 10px;
   }
   .clients-form .clienst-win .bg-firsts {
