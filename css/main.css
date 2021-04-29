@@ -1330,12 +1330,6 @@ a:hover {
   margin-left: 7px;
 }
 
-@media (min-width: 992px) {
-  .clients-ques {
-    margin-bottom: 70px;
-  }
-}
-
 .clients {
   padding-top: 10px;
   background-image: url("../img/bg-big.png");
@@ -1467,6 +1461,127 @@ a:hover {
   color: #A0A0A0;
   font-size: 14px;
   line-height: 150%;
+}
+
+.clinic p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.clinic .clinic-br {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .clinic .clinic-br {
+    display: inline;
+  }
+}
+
+.clinic .clinic-title {
+  font-size: 48px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+  .clinic .clinic-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .clinic .clinic-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .clinic .clinic-title {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+}
+
+.clinic .clinic-subtitle {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 22px;
+  color: #A0A0A0;
+}
+
+@media (max-width: 767.98px) {
+  .clinic .clinic-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .clinic .clinic-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .clinic .clinic-subtitle {
+    font-size: calc(5px + (10 * (110vw / 480)));
+  }
+}
+
+.clinic .clinic-steps {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.clinic .clinic-steps-img {
+  max-width: 100%;
+}
+
+.clinic .clinic-img {
+  font-size: 22px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.clinic .step-1 {
+  top: 59%;
+  left: 2.5%;
+}
+
+.clinic .step-2 {
+  top: 47%;
+  left: 22.8%;
+}
+
+.clinic .step-3 {
+  top: 58%;
+  left: 42%;
+}
+
+.clinic .step-4 {
+  top: 73%;
+  left: 62.3%;
+}
+
+.clinic .step-5 {
+  top: 65%;
+  left: 78.7%;
+}
+
+@media (max-width: 1199.98px) {
+  .clinic .step-1, .clinic .step-2, .clinic .step-3, .clinic .step-4, .clinic .step-5 {
+    font-size: 18px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .clinic .step-1, .clinic .step-2, .clinic .step-3, .clinic .step-4, .clinic .step-5 {
+    font-size: 13.5px;
+    line-height: 120%;
+  }
 }
 
 .doctor-tooth {
@@ -1678,6 +1793,12 @@ a:hover {
   }
   .menu__item {
     margin: 0 27px;
+  }
+}
+
+@media (min-width: 992px) {
+  .clients-ques {
+    margin-bottom: 70px;
   }
 }
 

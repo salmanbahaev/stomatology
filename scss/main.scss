@@ -369,6 +369,8 @@ a:hover {
 .wrap-line {
   background: url('../img/bg-line-2.svg') 100% / contain no-repeat;
 }
+
+// ques
 .ques {
   text-align: center;
   margin-top: 39px;
@@ -531,6 +533,8 @@ a:hover {
     height: 24px;
   }
 }
+
+// trust
 .trust {
   overflow: hidden;
   .trust__first-img img, .trust__second-img img {
@@ -671,7 +675,7 @@ a:hover {
     }
   }
 }
-
+// btfl
 .btfl {
   background: url('../img/bg-line2.svg') 100% / contain no-repeat;
   @media (max-width: 575.98px) {
@@ -847,11 +851,8 @@ a:hover {
   margin-top: 28px;
   margin-left: 7px;
 }
-@media (min-width: 992px) {
-  .clients-ques {
-    margin-bottom: 70px; 
-  }
-}
+
+// clients
 .clients {
   padding-top: 10px;
   background-image: url('../img/bg-big.png');
@@ -956,6 +957,95 @@ a:hover {
   }
   
 }
+
+// clinic
+.clinic {
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .clinic-br {
+    display: none;
+    @media (max-width: 575.98px) { display: inline; }
+  }
+  .clinic-title {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    @media (max-width: 991.98px) {
+      font-size: 38px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 36px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 32px;
+      margin-top: 30px;
+    }
+  }
+  .clinic-subtitle {
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 22px;
+    color: #A0A0A0;
+    @media (max-width: 767.98px) {
+      font-size: 18px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 16px;
+    }
+    @media (max-width: 480px) {
+      font-size: calc(5px + (10 * (110vw / 480)));
+    }
+  }
+  .clinic-steps {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .clinic-steps-img {
+    max-width: 100%;
+  }
+  .clinic-img {
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+  }
+  .step-1 {
+    top: 59%;
+    left: 2.5%;
+  }
+  .step-2 {
+    top: 47%;
+    left: 22.8%;
+  }
+  .step-3 {
+    top: 58%;
+    left: 42%;
+  }
+  .step-4 {
+    top: 73%;
+    left: 62.3%;
+  }
+  .step-5 {
+    top: 65%;
+    left: 78.7%;
+  }
+  @media (max-width: 1199.98px) {
+    .step-1, .step-2, .step-3, .step-4, .step-5 {
+      font-size: 18px;
+      line-height: 120%;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .step-1, .step-2, .step-3, .step-4, .step-5 {
+      font-size: 13.5px;
+      line-height: 120%;
+    }
+  }
+}
+
 .doctor-tooth {
   z-index: 1;
   right: -35px;
@@ -989,6 +1079,7 @@ a:hover {
     display: none;
   }
 }
+
 @media (max-width: 1450px) {
   .logo-tel {
     display: block;
@@ -1146,6 +1237,12 @@ a:hover {
   }
 }
 
+@media (min-width: 992px) {
+  .clients-ques {
+    margin-bottom: 70px; 
+  }
+}
+
 @media (max-width: 767px) {
   .block-line {
     display: none;
@@ -1263,6 +1360,7 @@ a:hover {
     margin-left: 12px !important;
   }
 }
+
 @media (max-width: 480px) {
   .doctor-tooth {
     bottom: 36px;
@@ -1295,6 +1393,7 @@ a:hover {
     }
   }
 }
+
 @media (max-width: 390px) {
   .doctor-med {
     bottom: 0;
