@@ -1320,6 +1320,11 @@ a:hover {
   padding-bottom: 39px;
 }
 
+.second-form form {
+  position: relative;
+  z-index: 2;
+}
+
 .in-pad-7 {
   margin-top: 28px;
   margin-left: 7px;
@@ -1432,8 +1437,6 @@ a:hover {
   background: rgba(255, 255, 255, 0.5);
   opacity: 0.5;
   border-radius: 15px;
-  top: -10px;
-  right: -10px;
   width: 100%;
   height: 100%;
   z-index: -5;
@@ -1467,6 +1470,7 @@ a:hover {
 }
 
 .doctor-tooth {
+  z-index: 1;
   right: -35px;
   bottom: -4px;
 }
@@ -1796,12 +1800,42 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+  .doctor-tooth {
+    bottom: 36px;
+  }
   .doctor-med img {
     width: 100%;
+  }
+  .clients-form {
+    overflow: hidden;
+  }
+  .clients-form .clienst-win .clientss-title {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+  }
+  .clients-form .clienst-win .clientss-subtitle {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .clients-form .clienst-win .second-form {
+    margin-left: 0;
+  }
+  .clients-form .clienst-win .second-form form {
+    padding-right: 70px;
+    padding-left: 26px;
   }
 }
 
 @media (max-width: 390px) {
+  .doctor-med {
+    bottom: 0;
+    top: 254px;
+  }
+  .doctor-med img {
+    width: 100%;
+    max-width: 90%;
+  }
   .doctor-tooth img {
     width: 126px;
     height: auto;
@@ -1820,5 +1854,67 @@ a:hover {
     line-height: 100%;
     width: 170px;
     height: 36px;
+  }
+  .clients-ques .clients-title {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-size: 20.4235px;
+    line-height: 150%;
+    padding: 0;
+  }
+  .clients .card-header .btn-link {
+    padding: 0;
+    border: none;
+  }
+  .clients .card-header .arrow-collapce.btn {
+    width: 18px;
+    height: 18px;
+    border-radius: 5.7px;
+    padding: 0px;
+  }
+  .clients .card-header .arrow-collapce.btn .collapce-arrow {
+    height: 9px;
+  }
+  .clients .card-header .btn-link {
+    font-size: 12px;
+  }
+  .clients .card-body {
+    font-size: 9px;
+    padding: 0 36px 11px 11px;
+  }
+  .clients-form {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .clients-form .clienst-win {
+    border-radius: 8.5px;
+    margin-top: 32px;
+    margin-right: 10px;
+  }
+  .clients-form .clienst-win .bg-firsts {
+    border-radius: 8.5px;
+    top: -6px;
+    right: -6px;
+  }
+  .clients-form .clienst-win .bg-seconds {
+    border-radius: 8.5px;
+    top: -12px;
+    right: -12px;
+  }
+  .clients-form .clienst-win .clientss-title {
+    text-align: left;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .clients-form .clienst-win .clientss-subtitle {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 10px;
+    text-align: left;
+  }
+  .clients-form .clienst-win .second-form form {
+    padding-left: 11px;
   }
 }
