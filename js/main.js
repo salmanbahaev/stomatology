@@ -1,7 +1,7 @@
 $(document).ready(function() {
   new Cocoen(document.querySelector('.cocoen'));
 
-  var owl = $('.owl-carousel')
+  var owl = $('.olw-car-1')
 
   owl.owlCarousel({
     item: 3,

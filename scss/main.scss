@@ -755,7 +755,7 @@ a:hover {
       padding-top: 75px;
     }
   }
-  .owl-carousel {
+  .olw-car-1 {
     display: flex;
     flex-direction: column;
     max-width: 704px;
@@ -863,6 +863,9 @@ a:hover {
     margin-bottom: 18px;
     font-size: 36px;
     color: #fff;
+    @media (max-width: 1199.98px) {
+      font-size: 32px;
+    }
     @media (max-width: 991.98px) {
       font-size: 30px;
     }
@@ -1042,6 +1045,48 @@ a:hover {
     .step-1, .step-2, .step-3, .step-4, .step-5 {
       font-size: 13.5px;
       line-height: 120%;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .step-1, .step-2, .step-3, .step-4, .step-5 {
+      font-size: 10.5px;
+      line-height: 120%;
+    }
+  }
+  .clinic-tooth-1 {
+    top: 27%;
+    left: 5.5%;
+    @media (max-width: 1199.98px) {
+      top: 26%;
+      left: 5%;
+    }
+    @media (max-width: 991.98px) {
+      top: 24%;
+      left: 6%;
+      img { width: 27px; }
+    }
+    @media (max-width: 767.98px) {
+      top: 26%;
+      left: 6%;
+      img { width: 20px; }
+    }
+  }
+  .clinic-tooth-2 {
+    top: 6%;
+    right: 1.9%;
+    @media (max-width: 1199.98px) {
+      top: -1%;
+      right: 0%;
+    }
+    @media (max-width: 991.98px) {
+      top: -5%;
+      right: 1%;
+      img { width: 80px; }
+    }
+    @media (max-width: 767.98px) {
+      top: -3%;
+      right: 1%;
+      img { width: 60px; }
     }
   }
 }
