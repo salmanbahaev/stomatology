@@ -963,6 +963,7 @@ a:hover {
 
 // clinic
 .clinic {
+  overflow: hidden;
   p {
     margin-top: 0;
     margin-bottom: 0;
@@ -999,6 +1000,21 @@ a:hover {
     }
     @media (max-width: 480px) {
       font-size: calc(5px + (10 * (110vw / 480)));
+    }
+  }
+  .clinic-steps-desk {
+    @media (max-width: 575.98px) {
+      display: none;
+    }
+  }
+  .mobile-clin-steps {
+    width: 100%;
+    max-width: 320px;
+  }
+  .clinic-steps-mobile, .steps-mobile {
+    display: none !important;
+    @media (max-width: 575.98px) {
+      display: flex !important;
     }
   }
   .clinic-steps {
@@ -1052,6 +1068,13 @@ a:hover {
       font-size: 10.5px;
       line-height: 120%;
     }
+  }
+  .clinic-table {
+    top: 114px;
+    left: 0;
+    width: 28%;
+    @media (max-width: 1675px) { display: none; }
+    img { width: 100%; }
   }
   .clinic-tooth-1 {
     top: 27%;

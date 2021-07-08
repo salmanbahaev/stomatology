@@ -1469,6 +1469,10 @@ a:hover {
   line-height: 150%;
 }
 
+.clinic {
+  overflow: hidden;
+}
+
 .clinic p {
   margin-top: 0;
   margin-bottom: 0;
@@ -1534,6 +1538,29 @@ a:hover {
   }
 }
 
+@media (max-width: 575.98px) {
+  .clinic .clinic-steps-desk {
+    display: none;
+  }
+}
+
+.clinic .mobile-clin-steps {
+  width: 100%;
+  max-width: 320px;
+}
+
+.clinic .clinic-steps-mobile, .clinic .steps-mobile {
+  display: none !important;
+}
+
+@media (max-width: 575.98px) {
+  .clinic .clinic-steps-mobile, .clinic .steps-mobile {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
 .clinic .clinic-steps {
   margin-top: 15px;
   margin-bottom: 0;
@@ -1595,6 +1622,22 @@ a:hover {
     font-size: 10.5px;
     line-height: 120%;
   }
+}
+
+.clinic .clinic-table {
+  top: 114px;
+  left: 0;
+  width: 28%;
+}
+
+@media (max-width: 1675px) {
+  .clinic .clinic-table {
+    display: none;
+  }
+}
+
+.clinic .clinic-table img {
+  width: 100%;
 }
 
 .clinic .clinic-tooth-1 {
