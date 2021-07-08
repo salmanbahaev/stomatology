@@ -495,18 +495,16 @@
         <p class="clinic-title text-center text-grad">Все услуги<br class="clinic-br"> в одной клинике</p>
         <p class="clinic-subtitle text-center">от диагностики до восстановления зуба “под ключ”</p>
         <p class="clinic-steps text-center text-grad">Этапы:</p>
-        <div class="text-center">
-          <img class="mt-3 mx-auto steps-mobile" src="img/day-mobile.png" alt="этапы">
-        </div>
-        <div class="row">
-          <div class="col-12 clinic-steps-mobile d-flex justify-content-center pl-0 pr-0">
+        <div class="row position-relative">
+          <div class="col-12 clinic-steps-mobile mt-3 d-flex justify-content-center pl-0 pr-0">
             <div class="mobile-clin-steps d-flex flex-column justify-content-center">
               <div class="top-line-mobile position-relative ml-auto">
-                <img class="ml-5" src="svg/clin-line.svg" alt="">
+                <img class="" src="img/clin-line.png">
               </div>
               <div class="bottom-line-mobile ml-0">
-                <img class="mr-5" src="svg/bottom-line.svg" alt="">
+                <img class="mt-3" src="img/bottom-line.png">
               </div>
+              <img class="position-absolute" src="img/stom-mobile.png" alt="">
             </div>
           </div>
           <div class="col-10 clinic-steps-desk mx-auto mt-4 mt-sm-5 position-relative">
@@ -540,6 +538,33 @@
         </div>
       </div>
     </div><!-- / clinic -->
+
+    <div class="doctors"><!-- doctors -->
+
+      <p class="doctors-title text-center text-grad">Наши врачи</p>
+      <div class="doctors-navs">
+        <div class="row">
+          <div class="col">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                Имя Фамилия
+              </a>
+              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Зелим Хаманаев</a>
+              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Имя Фамилия</a>
+              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Имя Фамилия</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><img src="img/doctor-1.png" alt=""></div>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><img src="img/doctor-2.png" alt=""></div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><img src="img/doctor-3.png" alt=""></div>
+              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"><img src="img/doctor-4.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- / doctors -->
   </div>
   <script src="js/jquery-3.6.0.min.js"></script> 
   <script src="js/bootstrap.bundle.min.js"></script>

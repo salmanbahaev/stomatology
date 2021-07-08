@@ -1558,6 +1558,7 @@ a:hover {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    margin-bottom: 45px;
   }
 }
 
@@ -1702,6 +1703,51 @@ a:hover {
   .clinic .clinic-tooth-2 img {
     width: 60px;
   }
+}
+
+.nav-pills {
+  width: 386px;
+}
+
+.nav-pills .nav-link {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 120%;
+  padding-left: 45px;
+  padding-right: 0;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.nav-pills .nav-link:hover {
+  -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills .nav-link.active {
+  background: #F8F8F8;
+  color: #000;
+}
+
+.doctors-navs {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.doctors-title {
+  font-size: 48px;
+  line-height: 120%;
+  margin-top: 30px;
 }
 
 .doctor-tooth {
@@ -2038,6 +2084,10 @@ a:hover {
     margin-top: 5px !important;
     margin-left: 12px !important;
   }
+  .mobile-clin-steps > img {
+    right: 0;
+    bottom: -45px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2145,7 +2195,7 @@ a:hover {
   }
   .clients-form .clienst-win .clientss-title {
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 20px;
     padding-left: 16px;
     padding-right: 16px;
